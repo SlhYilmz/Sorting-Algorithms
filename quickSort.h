@@ -3,6 +3,11 @@
 
 #include "helperFunctions.h"
 
+// Time complexity:
+// Worst:   O(n^2)      - Pivot is either the smallest element, or the largest element
+// Best:    O(n.logn)   - Pivot is the middle element, or near the middle.
+// Average: O(n.logn)   - Unordered list of elements.
+
 // function to find the partition position
 int partition(int array[], int low, int high)
 {

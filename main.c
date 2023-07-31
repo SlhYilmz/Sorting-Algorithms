@@ -18,6 +18,8 @@ int main()
     printf("Sorted array: \n");
     printArray(arr1, size1);
 
+    /****************************************************/
+
     int arr2[] = {31, 42, 17, 1, 84, 55, 23};
     int size2 = sizeof(arr2) / sizeof(arr2[0]);
     printf("\n");
@@ -29,6 +31,8 @@ int main()
     printf("Sorted array: \n");
     printArray(arr2, size2);
 
+    /****************************************************/
+    
     int arr3[] = {17, 35, 47, 76, 19, 5, 66};
     int size3 = sizeof(arr3) / sizeof(arr3[0]);
     printf("\n");
