@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 #include "bubbleSort.h"
 #include "quickSort.h"
+#include "selectionSort.h"
 
 int main()
 {
@@ -27,5 +29,17 @@ int main()
     printf("Sorted array: \n");
     printArray(arr2, size2);
 
+    int arr3[] = {17, 35, 47, 76, 19, 5, 66};
+    int size3 = sizeof(arr3) / sizeof(arr3[0]);
+    printf("\n");
+    printf("-----------SELECTION SORT-----------\n");
+    printf("Unsorted array: \n");
+    printArray(arr3, size3);
+
+    selectionSort(arr3, size3);
+    printf("Sorted array: \n");
+    printArray(arr3, size3);
+
+    printf("\n");
     return 0;
 }

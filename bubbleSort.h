@@ -1,10 +1,9 @@
 #ifndef BUBBLESORT_H
 #define BUBBLESORT_H
 
-#include <stdbool.h>
 #include "helperFunctions.h"
 
-// An optimized version of Bubble Sort
+// Bubble sort
 void bubbleSort(int arr[], int size)
 {
     for (int i = 0; i < size - 1; i++)
